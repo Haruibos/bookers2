@@ -14,3 +14,41 @@
  *= require_self
  */
 @import "bootstrap";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row{
+  margin: 0 -15px;
+}
+
+.form_group{
+  margin-bottom: 1rem;
+}
+
+.book_title, .book_option{
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+tbody>tr>th{
+  font-weight: normal;
+}
+
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+.error_explantation {
+  color: red;
+}
+
+#notice{
+  color: green;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
